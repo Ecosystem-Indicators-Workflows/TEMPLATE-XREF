@@ -1,14 +1,9 @@
-# README - `./results`
+# README - `./results/`
 
-`./results/` is where final outputs and results files belong, including:
-- raster files:
-  - Best-candidate IUCN GET Ecosystem Functional Group at 90 m resolution: `(place)-xref-target.tiff`
-  - membership votes (prop_memb) supporting the best-candidate EFG in Round 2: `(place)-xref-membership.tiff`
-  - Number of supporting interpreters (supporting) out of 5 who assigned $>0$ membership to the best-candidate EFG in Round 2  `(place)-xref-supporting.tiff`
-- qgis files, e.g. `.clr` and `.qml`
-- membership `.csv` files:
-  - Complete `{ecosystem survey name}` to IUCN GET synthesis table: `(place)-xref-best-candidate.csv`
-  - Raster pixel value dictionary mapping `{total}` integer codes in `(place)-xref-target.tiff` to EFG codes
+Each key output and associated files is to be written to its own subfolder within `./results/`:
+- `./results/output_01/` Output 1: Bundle of vector data and cross-ref matrices
+- `./results/output_02/` Output 2: Raster layers for membership per GET EFG (All candidate EFGs)
+- `./results/output_03/` Output 3: Raster layers for best candidate EFG, EFG membership, and support.
 
 
-
+Note that all outputs are ignored by git, excluding the resultant README.qmd files that are output to each subdirectory.
