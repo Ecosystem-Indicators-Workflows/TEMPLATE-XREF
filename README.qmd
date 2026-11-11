@@ -44,13 +44,20 @@ params:
 **Author Contributions:** A1 led the expert elicitation process. A1, A2, A3, A4, and A5 contributed membership tables for cross-referencing. JRFP led the technical documentation and synthesis workflow. JRFP, EG, and ARS contributed scripts for data preparation, validation, analysis, and spatial output generation.
 
 
+# Repository Structure
+
+## References
+
+Core bibliographic references are recorded in `references/main.bib`, including commented sections for main references and for software references.
+Case-study specifc references are to be recorded in `references/additional.bib`, including sections for data sources and other case-study specific references.
+
 # Repository Checklist
 
 <!-- Delete this section once you have completed the checklist.  -->
 
 - [ ] Update `CITATION.cff` with the correct title and authorship information.
 - [ ] Update `README.qmd` with the correct title and authorship information in the YAML header and the `params$variable` variables.
-- [ ] Update `references.bib` with all output datasets, for example:
+- [ ] Update `additional.bib` with all case-study specific dataset or other references (including input and output datasets), for example:
 
 ```
 @dataset{OUTPUT1_best_candidate,
