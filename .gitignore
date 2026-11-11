@@ -5,3 +5,5 @@
 .DS_Store
 .quarto
 
+results-*/*
+!results-*/README.qmd
