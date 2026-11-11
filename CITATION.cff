@@ -19,6 +19,11 @@ authors:
     family-names: Keith
     affiliation: UNSW Sydney
     orcid: 'https://orcid.org/0000-0002-7373-0077'
+  - given-names: Elliot  
+    family-names: Gould
+    affiliation: UNSW Sydney
+    email: elliot.gould@unsw.edu.au
+    orcid: 'https://orcid.org/0000-0002-6585-538X'
   - given-names: Abhimanyu Raj
     family-names: Singh
     affiliation: QCIF, UNSW Sydney
