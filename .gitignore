@@ -3,7 +3,7 @@
 .RData
 .httr-oauth
 .DS_Store
-.quarto
-
+/.quarto/
+**/*.quarto_ipynb
 results-*/*
 !results-*/README.qmd

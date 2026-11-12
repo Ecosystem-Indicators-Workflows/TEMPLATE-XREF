@@ -47,13 +47,20 @@ params:
 
 All workflow outputs are written to the `./results/` directory, with each key output dataset in its own subdirectory. The `./results/` directory is ignored by Git, but each subdirectory contains a `README.qmd` file that is committed to the repository. The `README.qmd` files are dynamically generated from the output datasets and contain summary statistics, metadata, and references for each dataset.
 
+# Repository Structure
+
+## References
+
+Core bibliographic references are recorded in `references/main.bib`, including commented sections for main references and for software references.
+Case-study specifc references are to be recorded in `references/additional.bib`, including sections for data sources and other case-study specific references.
+
 # Repository Checklist
 
 <!-- Delete this section once you have completed the checklist.  -->
 
 - [ ] Update `CITATION.cff` with the correct title and authorship information.
 - [ ] Update `README.qmd` with the correct title and authorship information in the YAML header and the `params$variable` variables.
-- [ ] Update `references.bib` with all output datasets, for example:
+- [ ] Update `additional.bib` with all case-study specific dataset or other references (including input and output datasets), for example:
 
 ```
 @dataset{OUTPUT1_best_candidate,
