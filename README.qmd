@@ -43,6 +43,9 @@ params:
 
 **Author Contributions:** A1 led the expert elicitation process. A1, A2, A3, A4, and A5 contributed membership tables for cross-referencing. JRFP led the technical documentation and synthesis workflow. JRFP, EG, and ARS contributed scripts for data preparation, validation, analysis, and spatial output generation.
 
+# Repository File Structure
+
+All workflow outputs are written to the `./results/` directory, with each key output dataset in its own subdirectory. The `./results/` directory is ignored by Git, but each subdirectory contains a `README.qmd` file that is committed to the repository. The `README.qmd` files are dynamically generated from the output datasets and contain summary statistics, metadata, and references for each dataset.
 
 # Repository Checklist
 
