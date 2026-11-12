@@ -7,7 +7,9 @@ execute:
   warning: false
   message: false
 params:
-  ecosystem_survey_name: "Tasmanian Terrestrial Ecosystems (TASVEG 5.0)"
+  ecosystem_survey_name: "ecosystem survey name"
+  ecosystem_survey_department: "ecosystem survey department"
+  ecosystem_survey_data_license: "ecosystem survey data license"
 ---
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
@@ -20,11 +22,11 @@ params:
 
 # Cross-referencing `r params$ecosystem_survey_name` to the IUCN Global Ecosystem Typology: 90m Best-Candidate Spatial Synthesis
 
-**Version:** `r zenodo_meta$version`  
+**Version:** #TODO add Zenodo DOI and version number as badge.
 **Release Date:** `r format(Sys.Date(), "%Y-%m-%d")`  
-**Dataset License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (with source spatial data attribution to [TASVEG 5.0 © State of Tasmania](https://www.theLIST.tas.gov.au) under [CC BY 3.0 AU](http://creativecommons.org/licenses/by/3.0/au/))  
+**Dataset License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (with source spatial data attribution to (`r params$ecosystem_survey_name`) under `r params$ecosystem_survey_data_license`)
 **Code License:** MIT  
-**Workflow Repository:** <https://github.com/Ecosystem-Indicators-Workflows/TASVEG-XREF>
+**Workflow Repository:** <https://github.com/Ecosystem-Indicators-Workflows/TEMPLATE-XREF>
 
 > *Note: This `README.md` is dynamically generated from [`README.qmd`](README.qmd) by inspecting the output GeoTIFFs and CSV tables. To update all statistics after regenerating the data, run `quarto render output-best-candidate/README.qmd`.*
 
