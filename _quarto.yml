@@ -1,5 +1,6 @@
 project:
   type: default
+  output-dir: docs
 
 bibliography:
   - references/additional.bib # edit this file for your own case-study references
